@@ -1,0 +1,42 @@
+/* Container for the about page */
+.about-container {
+    max-width: 800px; /* Maximum width for readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+/* Style for headings */
+.about-container h1 {
+    font-size: 28px; /* Larger font size */
+    color: #007BFF; /* Blue color */
+    margin-bottom: 10px; /* Space below headings */
+    border-bottom: 2px solid #ddd; /* Bottom border */
+    padding-bottom: 5px; /* Padding below the heading */
+}
+
+/* Style for paragraphs */
+.about-container p {
+    font-size: 16px; /* Standard font size */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .about-container {
+        padding: 15px; /* Adjust padding for small screens */
+    }
+
+    .about-container h1 {
+        font-size: 24px; /* Smaller font size for headings */
+    }
+
+    .about-container p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+}

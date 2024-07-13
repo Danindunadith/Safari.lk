@@ -1,0 +1,129 @@
+/* AddOrderStyles.css */
+
+.addOrder {
+    width: 100%;
+    
+    background: url('https://www.lovesrilanka.org/wp-content/uploads/2020/06/LSL_B2_Yala-National-Park_1920x700.jpg') no-repeat center center;
+   
+    background-size: cover;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+    text-decoration-color: black;
+    position: relative;
+}
+
+.addOrder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.addOrderForm {
+    position: relative;
+    z-index: 2; /* Ensures the form is above the semi-transparent background */
+    align-items: flex-start; /* Align items to the start (left side) */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.9); /* Light semi-transparent background for form */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px; /* Set a maximum width for the form */
+}
+
+.addOrderForm .inputGroup {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addOrderForm .inputGroup label {
+    margin-bottom: 5px;
+    font-size: large;
+    color: #333; /* Darker text for readability */
+}
+
+.addOrderForm .inputGroup input,
+.addOrderForm .inputGroup select {
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for inputs */
+}
+
+.addOrderForm .inputGroup button {
+    border: 0;
+    outline: none;
+    background-color: rgba(115, 115, 121, 0.918);
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    margin-top: 20px;
+}
+
+.addOrder h3 {
+    margin-top: 10px;
+    position: relative;
+    z-index: 2; /* Ensures the heading is above the semi-transparent background */
+    color: #333; /* Darker text for readability */
+}
+
+h3 {
+    text-align: center;
+}
+
+.backBtn {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.backBtn button {
+    padding: 10px 20px;
+    background-color: rgb(152, 151, 219);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backBtn button:hover {
+    background-color: #62b1fa;
+}
+
+.sBtn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sBtn button {
+    padding: 10px 20px;
+    background-color: rgb(152, 151, 219);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sBtn button:hover {
+    background-color: #62b1fa;
+}
+
+.inputGroupBtn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
